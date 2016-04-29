@@ -24,7 +24,7 @@
 			</h2>
 		</section>
 
-		<section>
+		<section data-transition="zoom">
 			<h2>
 				OVERVIEW
 			</h2>
@@ -60,16 +60,33 @@
 				Awful Web Ads
 			</h2>
 			<h3 class="fragment" data-fragment-index="1">This is easy!</h3>
-		</section>
+			<ul>
+				<li class="fragment">The full screen pop-over or "out of page"</li>
+				<li class="fragment">The scroll-jacker</li>
+				<li class="fragment">The pushdown</li>
+			</ul>		</section>
 		<section>
 			<h2>
 				Not so awful ads online
 			</h2>
+			<ul>
+				<li class="fragment">Great, unintrusive video: Teads, <a href="http://teads.tv/">teads.tv</a></li>
+				<li class="fragment">Yieldmo ads: adbuilder.yieldmo.com</li>
+				<li class="fragment"></li>
+			</ul>
+			<aside class="notes">
+				Yieldmo window format is expecially nice.
+			</aside>
 		</section>
 		<section>
 			<h2>
 				Projecting scarcity to maximize value
 			</h2>
+			<ul>
+				<li class="fragment"></li>
+				<li class="fragment"></li>
+				<li class="fragment"></li>
+			</ul>
 		</section>
 
 
@@ -86,6 +103,20 @@
 			<h2>
 				How ads work
 			</h2>
+		</section>
+
+		<section>
+			<h3>A typical page load with ads:</h3>
+				<h4 class="fragment">Page requested by the browser</h4>
+				<h3 class="fragment">Scripts will be in header, slots and scripts on the page</h3>
+				<h3 class="fragment">Header has gpt ad script injection</h3>
+				<img class="fragment" src="images/gptheader.jpg" />
+			</section>
+			<section>
+				<h4>Header has inital (batch) ad request</h4>
+				<img class="fragment" src="images/SRA.jpg" />
+				<h4 class="fragment">Page body has several ad slots - divs with ad code</h4>
+				<h4 class="fragment">DFP deh4vers an ad for each slot: either from inventory based on targeting, or from the network ('remnant ads')</h4>
 		</section>
 
 		<section>
